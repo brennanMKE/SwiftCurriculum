@@ -85,5 +85,7 @@ send a Pull Request with you changes.
  * [ ] building and importing a Swift framework for iOS, Mac and tvOS
  * [ ] assertions
 
+---
+
 [Wiki] : https://github.com/brennanMKE/SwiftCurriculum/wiki]
 [Issues] : https://github.com/brennanMKE/SwiftCurriculum/issues
