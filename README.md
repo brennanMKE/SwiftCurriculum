@@ -87,5 +87,5 @@ send a Pull Request with you changes.
 
 ---
 
-[Wiki] : https://github.com/brennanMKE/SwiftCurriculum/wiki
-[Issues] : https://github.com/brennanMKE/SwiftCurriculum/issues
+[Wiki]: https://github.com/brennanMKE/SwiftCurriculum/wiki
+[Issues]: https://github.com/brennanMKE/SwiftCurriculum/issues
