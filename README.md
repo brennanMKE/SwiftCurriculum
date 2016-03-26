@@ -39,8 +39,6 @@ send a Pull Request with you changes.
  * [When to use map, flatMap, or for loops in Swift](http://www.mokacoding.com/blog/when-to-use-map-flatmap-for/)
  * [Mocks in Swift via Protocols](http://blog.eliperkins.me/mocks-in-swift-via-protocols)
  * [Swift: Don’t Forget To Keep Your IBOutlets Private!](http://natashatherobot.com/swift-iboutlets-private/)
- 
- Using Swift with Cocoa and Objective-C
 
 ### Checklist
 
