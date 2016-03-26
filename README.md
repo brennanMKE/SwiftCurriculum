@@ -17,6 +17,7 @@ send a Pull Request with you changes.
 
 ### Resources
 
+ * [Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)
  * [A Swift Kickstart](https://itunes.apple.com/us/book/a-swift-kickstart/id891801923?mt=11)
  * [Swift Thinking](http://www.slideshare.net/natashatherobot/altconf-2015-swift-thinking) 
  * [Swift 1.2 from NSHipster](http://nshipster.com/swift-1.2/) 
@@ -53,7 +54,14 @@ send a Pull Request with you changes.
  * [ ] using guard
  * [ ] using an initialize closure on a property
  * [ ] using optional IBOutlet properties
+ * [ ] classes
+ * [ ] inheritance
+ * [ ] access control
+ * [ ] advanced operators
  * [ ] init and deinit lifecycle
+ * [ ] automatic reference counting
+ * [ ] optional chaining
+ * [ ] type casting
  * [ ] basic functions
  * [ ] functions with optionals as parameters
  * [ ] functions with variadic parameters (varargs)
