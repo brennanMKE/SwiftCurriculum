@@ -1,7 +1,7 @@
 # Swift Curriculum
 
-Learning to write code in a new langauge just jumping in is how I typically learn.
-But there is also value in making sure that every aspect of the langauge is covered.
+Learning to write code in a new langauge by just jumping in is how I typically learn.
+But learning on the go to build an app can leave some gaps in knowledge. 
 With Swift there are so many features which are unique to the language which should
 be explored and understood. This GitHub repository will be used to systematically
 learn by writing code following a list of topics to cover. Books, blogs, articles
