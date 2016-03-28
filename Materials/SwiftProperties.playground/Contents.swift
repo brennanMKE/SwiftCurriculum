@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+// SwiftCurriculum: https://github.com/brennanMKE/SwiftCurriculum
 
 import UIKit
 
@@ -17,7 +17,6 @@ class Traveler {
         return self.description
     }
 }
-
 
 // Class with properties which are initialized with init function
 
