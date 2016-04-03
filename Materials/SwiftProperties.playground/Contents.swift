@@ -33,7 +33,7 @@ class Vehicle {
     }
     
     var description: String {
-        return String(format: "\(make) \(model) - \(year)", arguments: [unsafeAddressOf(self)])
+        return "\(make) \(model) - \(year)"
     }
     
     var debugDescription: String {
