@@ -1,6 +1,6 @@
 // SwiftCurriculum: https://github.com/brennanMKE/SwiftCurriculum
-
-import UIKit
+// Blog Post: https://medium.com/@brennansv/swift-properties-5346f1543cd7#.1l3a3ijpl
+// Web Playground: http://swiftlang.ng.bluemix.net/#/repl/1cb4454b58b8e7e351a3ee73f8b6efd4c0f877541edb188c7a0019d48881cb37
 
 // Class with properties which are initialized immediately
 
@@ -10,7 +10,7 @@ class Traveler {
     var place: String = ""
     
     var description: String {
-        return String(format: "\(name) - \(place)", arguments: [unsafeAddressOf(self)])
+        return "\(name) - \(place)"
     }
     
     var debugDescription: String {
@@ -48,9 +48,6 @@ john.place = "Sunnyvale"
 let truck = Vehicle(make: "Toyota", model: "Tacoma", year: 2004)
 
 // Note: The description is not expanded automatically in a print statement.
-
-print("Traveler: \(john)")
-print("Vehicle: \(truck)")
 
 print("Traveler: \(john.description)")
 print("Vehicle: \(truck.description)")

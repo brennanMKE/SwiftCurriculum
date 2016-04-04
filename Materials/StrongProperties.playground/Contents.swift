@@ -1,4 +1,6 @@
 // SwiftCurriculum: https://github.com/brennanMKE/SwiftCurriculum
+// Blog Post: https://medium.com/@brennansv/swift-strong-properties-a8775516e4c6#.whowt71cy
+// Web Playground: http://swiftlang.ng.bluemix.net/#/repl/d65df578a83d3666514ba715977ed260e87dbf9c70ac5aa1046b5713e8a620ae
 
 // A property in Swift is strong by default. It must be modified to make it weak or unowned.
 // With Automatic Reference Counting (ARC) references are counted only if they are strong.
@@ -9,8 +11,6 @@
 // and set to nil. It is immediate de-initialized. Then the variables for the
 // rest of the friends are also set to nil but are still retained because the
 // array in the squad has a strong reference to each of them.
-
-import UIKit
 
 class Friend {
     let name: String
@@ -110,7 +110,7 @@ taylor = nil
 
 swiftSquad?.report()
 
-// kick out Kanye
+// kick out Kanye (a string for name is used since the kanye variable is now nil)
 swiftSquad?.kickOutFriendByName("Kanye West")
 
 // Kanye is not in the squad so there is only 1 reference to this variable now
