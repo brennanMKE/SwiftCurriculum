@@ -12,8 +12,8 @@
 		2611E8E91CAA556B00E09626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2611E8E71CAA556B00E09626 /* Main.storyboard */; };
 		2611E8EB1CAA556B00E09626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2611E8EA1CAA556B00E09626 /* Assets.xcassets */; };
 		2611E8EE1CAA556B00E09626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2611E8EC1CAA556B00E09626 /* LaunchScreen.storyboard */; };
-		2611E8F91CAA556C00E09626 /* SwiftWeakVarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2611E8F81CAA556C00E09626 /* SwiftWeakVarsTests.swift */; };
-		2611E9041CAA556C00E09626 /* SwiftWeakVarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2611E9031CAA556C00E09626 /* SwiftWeakVarsUITests.swift */; };
+		2611E8F91CAA556C00E09626 /* WeakVarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2611E8F81CAA556C00E09626 /* WeakVarsTests.swift */; };
+		2611E9041CAA556C00E09626 /* WeakVarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2611E9031CAA556C00E09626 /* WeakVarsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,30 +22,30 @@
 			containerPortal = 2611E8D81CAA556B00E09626 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2611E8DF1CAA556B00E09626;
-			remoteInfo = SwiftWeakVars;
+			remoteInfo = WeakVars;
 		};
 		2611E9001CAA556C00E09626 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2611E8D81CAA556B00E09626 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2611E8DF1CAA556B00E09626;
-			remoteInfo = SwiftWeakVars;
+			remoteInfo = WeakVars;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2611E8E01CAA556B00E09626 /* SwiftWeakVars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWeakVars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2611E8E01CAA556B00E09626 /* WeakVars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeakVars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2611E8E31CAA556B00E09626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2611E8E51CAA556B00E09626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2611E8E81CAA556B00E09626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2611E8EA1CAA556B00E09626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2611E8ED1CAA556B00E09626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2611E8EF1CAA556B00E09626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2611E8F41CAA556C00E09626 /* SwiftWeakVarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWeakVarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2611E8F81CAA556C00E09626 /* SwiftWeakVarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWeakVarsTests.swift; sourceTree = "<group>"; };
+		2611E8F41CAA556C00E09626 /* WeakVarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeakVarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2611E8F81CAA556C00E09626 /* WeakVarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakVarsTests.swift; sourceTree = "<group>"; };
 		2611E8FA1CAA556C00E09626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2611E8FF1CAA556C00E09626 /* SwiftWeakVarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWeakVarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2611E9031CAA556C00E09626 /* SwiftWeakVarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWeakVarsUITests.swift; sourceTree = "<group>"; };
+		2611E8FF1CAA556C00E09626 /* WeakVarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeakVarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2611E9031CAA556C00E09626 /* WeakVarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakVarsUITests.swift; sourceTree = "<group>"; };
 		2611E9051CAA556C00E09626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +77,9 @@
 		2611E8D71CAA556B00E09626 = {
 			isa = PBXGroup;
 			children = (
-				2611E8E21CAA556B00E09626 /* SwiftWeakVars */,
-				2611E8F71CAA556C00E09626 /* SwiftWeakVarsTests */,
-				2611E9021CAA556C00E09626 /* SwiftWeakVarsUITests */,
+				2611E8E21CAA556B00E09626 /* WeakVars */,
+				2611E8F71CAA556C00E09626 /* WeakVarsTests */,
+				2611E9021CAA556C00E09626 /* WeakVarsUITests */,
 				2611E8E11CAA556B00E09626 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		2611E8E11CAA556B00E09626 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2611E8E01CAA556B00E09626 /* SwiftWeakVars.app */,
-				2611E8F41CAA556C00E09626 /* SwiftWeakVarsTests.xctest */,
-				2611E8FF1CAA556C00E09626 /* SwiftWeakVarsUITests.xctest */,
+				2611E8E01CAA556B00E09626 /* WeakVars.app */,
+				2611E8F41CAA556C00E09626 /* WeakVarsTests.xctest */,
+				2611E8FF1CAA556C00E09626 /* WeakVarsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2611E8E21CAA556B00E09626 /* SwiftWeakVars */ = {
+		2611E8E21CAA556B00E09626 /* WeakVars */ = {
 			isa = PBXGroup;
 			children = (
 				2611E8E31CAA556B00E09626 /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				2611E8EC1CAA556B00E09626 /* LaunchScreen.storyboard */,
 				2611E8EF1CAA556B00E09626 /* Info.plist */,
 			);
-			path = SwiftWeakVars;
+			path = WeakVars;
 			sourceTree = "<group>";
 		};
-		2611E8F71CAA556C00E09626 /* SwiftWeakVarsTests */ = {
+		2611E8F71CAA556C00E09626 /* WeakVarsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2611E8F81CAA556C00E09626 /* SwiftWeakVarsTests.swift */,
+				2611E8F81CAA556C00E09626 /* WeakVarsTests.swift */,
 				2611E8FA1CAA556C00E09626 /* Info.plist */,
 			);
-			path = SwiftWeakVarsTests;
+			path = WeakVarsTests;
 			sourceTree = "<group>";
 		};
-		2611E9021CAA556C00E09626 /* SwiftWeakVarsUITests */ = {
+		2611E9021CAA556C00E09626 /* WeakVarsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2611E9031CAA556C00E09626 /* SwiftWeakVarsUITests.swift */,
+				2611E9031CAA556C00E09626 /* WeakVarsUITests.swift */,
 				2611E9051CAA556C00E09626 /* Info.plist */,
 			);
-			path = SwiftWeakVarsUITests;
+			path = WeakVarsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2611E8DF1CAA556B00E09626 /* SwiftWeakVars */ = {
+		2611E8DF1CAA556B00E09626 /* WeakVars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2611E9081CAA556C00E09626 /* Build configuration list for PBXNativeTarget "SwiftWeakVars" */;
+			buildConfigurationList = 2611E9081CAA556C00E09626 /* Build configuration list for PBXNativeTarget "WeakVars" */;
 			buildPhases = (
 				2611E8DC1CAA556B00E09626 /* Sources */,
 				2611E8DD1CAA556B00E09626 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftWeakVars;
-			productName = SwiftWeakVars;
-			productReference = 2611E8E01CAA556B00E09626 /* SwiftWeakVars.app */;
+			name = WeakVars;
+			productName = WeakVars;
+			productReference = 2611E8E01CAA556B00E09626 /* WeakVars.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2611E8F31CAA556C00E09626 /* SwiftWeakVarsTests */ = {
+		2611E8F31CAA556C00E09626 /* WeakVarsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2611E90B1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "SwiftWeakVarsTests" */;
+			buildConfigurationList = 2611E90B1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "WeakVarsTests" */;
 			buildPhases = (
 				2611E8F01CAA556C00E09626 /* Sources */,
 				2611E8F11CAA556C00E09626 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				2611E8F61CAA556C00E09626 /* PBXTargetDependency */,
 			);
-			name = SwiftWeakVarsTests;
-			productName = SwiftWeakVarsTests;
-			productReference = 2611E8F41CAA556C00E09626 /* SwiftWeakVarsTests.xctest */;
+			name = WeakVarsTests;
+			productName = WeakVarsTests;
+			productReference = 2611E8F41CAA556C00E09626 /* WeakVarsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2611E8FE1CAA556C00E09626 /* SwiftWeakVarsUITests */ = {
+		2611E8FE1CAA556C00E09626 /* WeakVarsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2611E90E1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "SwiftWeakVarsUITests" */;
+			buildConfigurationList = 2611E90E1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "WeakVarsUITests" */;
 			buildPhases = (
 				2611E8FB1CAA556C00E09626 /* Sources */,
 				2611E8FC1CAA556C00E09626 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				2611E9011CAA556C00E09626 /* PBXTargetDependency */,
 			);
-			name = SwiftWeakVarsUITests;
-			productName = SwiftWeakVarsUITests;
-			productReference = 2611E8FF1CAA556C00E09626 /* SwiftWeakVarsUITests.xctest */;
+			name = WeakVarsUITests;
+			productName = WeakVarsUITests;
+			productReference = 2611E8FF1CAA556C00E09626 /* WeakVarsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2611E8DB1CAA556B00E09626 /* Build configuration list for PBXProject "SwiftWeakVars" */;
+			buildConfigurationList = 2611E8DB1CAA556B00E09626 /* Build configuration list for PBXProject "WeakVars" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2611E8DF1CAA556B00E09626 /* SwiftWeakVars */,
-				2611E8F31CAA556C00E09626 /* SwiftWeakVarsTests */,
-				2611E8FE1CAA556C00E09626 /* SwiftWeakVarsUITests */,
+				2611E8DF1CAA556B00E09626 /* WeakVars */,
+				2611E8F31CAA556C00E09626 /* WeakVarsTests */,
+				2611E8FE1CAA556C00E09626 /* WeakVarsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2611E8F91CAA556C00E09626 /* SwiftWeakVarsTests.swift in Sources */,
+				2611E8F91CAA556C00E09626 /* WeakVarsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2611E9041CAA556C00E09626 /* SwiftWeakVarsUITests.swift in Sources */,
+				2611E9041CAA556C00E09626 /* WeakVarsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		2611E8F61CAA556C00E09626 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2611E8DF1CAA556B00E09626 /* SwiftWeakVars */;
+			target = 2611E8DF1CAA556B00E09626 /* WeakVars */;
 			targetProxy = 2611E8F51CAA556C00E09626 /* PBXContainerItemProxy */;
 		};
 		2611E9011CAA556C00E09626 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2611E8DF1CAA556B00E09626 /* SwiftWeakVars */;
+			target = 2611E8DF1CAA556B00E09626 /* WeakVars */;
 			targetProxy = 2611E9001CAA556C00E09626 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,9 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftWeakVars/Info.plist;
+				INFOPLIST_FILE = WeakVars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.SwiftWeakVars;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.WeakVars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftWeakVars/Info.plist;
+				INFOPLIST_FILE = WeakVars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.SwiftWeakVars;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.WeakVars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -421,11 +421,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftWeakVarsTests/Info.plist;
+				INFOPLIST_FILE = WeakVarsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.SwiftWeakVarsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.WeakVarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWeakVars.app/SwiftWeakVars";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeakVars.app/WeakVars";
 			};
 			name = Debug;
 		};
@@ -433,22 +433,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftWeakVarsTests/Info.plist;
+				INFOPLIST_FILE = WeakVarsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.SwiftWeakVarsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.WeakVarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWeakVars.app/SwiftWeakVars";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeakVars.app/WeakVars";
 			};
 			name = Release;
 		};
 		2611E90F1CAA556C00E09626 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftWeakVarsUITests/Info.plist;
+				INFOPLIST_FILE = WeakVarsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.SwiftWeakVarsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.WeakVarsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SwiftWeakVars;
+				TEST_TARGET_NAME = WeakVars;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -456,11 +456,11 @@
 		2611E9101CAA556C00E09626 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftWeakVarsUITests/Info.plist;
+				INFOPLIST_FILE = WeakVarsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.SwiftWeakVarsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.WeakVarsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SwiftWeakVars;
+				TEST_TARGET_NAME = WeakVars;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -468,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2611E8DB1CAA556B00E09626 /* Build configuration list for PBXProject "SwiftWeakVars" */ = {
+		2611E8DB1CAA556B00E09626 /* Build configuration list for PBXProject "WeakVars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2611E9061CAA556C00E09626 /* Debug */,
@@ -477,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2611E9081CAA556C00E09626 /* Build configuration list for PBXNativeTarget "SwiftWeakVars" */ = {
+		2611E9081CAA556C00E09626 /* Build configuration list for PBXNativeTarget "WeakVars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2611E9091CAA556C00E09626 /* Debug */,
@@ -485,7 +485,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2611E90B1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "SwiftWeakVarsTests" */ = {
+		2611E90B1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "WeakVarsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2611E90C1CAA556C00E09626 /* Debug */,
@@ -493,7 +493,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2611E90E1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "SwiftWeakVarsUITests" */ = {
+		2611E90E1CAA556C00E09626 /* Build configuration list for PBXNativeTarget "WeakVarsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2611E90F1CAA556C00E09626 /* Debug */,

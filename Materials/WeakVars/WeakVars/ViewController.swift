@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  SwiftWeakVars
+//  WeakVars
 //
 //  Created by Brennan Stehling on 3/28/16.
 //  Copyright © 2016 Swift Curriculum. All rights reserved.
