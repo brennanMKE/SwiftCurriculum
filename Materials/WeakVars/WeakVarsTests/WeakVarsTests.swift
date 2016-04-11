@@ -1,15 +1,15 @@
 //
-//  SwiftWeakVarsTests.swift
-//  SwiftWeakVarsTests
+//  WeakVarsTests.swift
+//  WeakVarsTests
 //
 //  Created by Brennan Stehling on 3/28/16.
 //  Copyright © 2016 Swift Curriculum. All rights reserved.
 //
 
 import XCTest
-@testable import SwiftWeakVars
+@testable import WeakVars
 
-class SwiftWeakVarsTests: XCTestCase {
+class WeakVarsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

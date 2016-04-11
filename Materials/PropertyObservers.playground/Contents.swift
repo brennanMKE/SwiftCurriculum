@@ -1,5 +1,6 @@
 // SwiftCurriculum: https://github.com/brennanMKE/SwiftCurriculum
 // Blog Post: https://medium.com/@brennansv/swift-property-observers-51f3e4fe7d3f#.cwmu4okhz
+// Web Playground: http://swiftlang.ng.bluemix.net/#/repl/7a3c2fe1ab87db584c63c770f218b189b002cbd6d21ef7e0392aa8db24d6fe32
 
 class Person {
     let name: String
