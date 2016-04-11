@@ -54,7 +54,7 @@ func ==(lhs: Person, rhs: Person) -> Bool {
 
 class Apartment {
     let number: Int
-    var name: String
+    let name: String
     weak var tenant: Person? {
         willSet(newTenant) {
             if tenant != newTenant {
