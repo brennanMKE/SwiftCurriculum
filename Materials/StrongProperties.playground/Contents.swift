@@ -1,6 +1,6 @@
 // SwiftCurriculum: https://github.com/brennanMKE/SwiftCurriculum
-// Blog Post: https://medium.com/@brennansv/swift-strong-properties-a8775516e4c6#.whowt71cy
-// Web Playground: http://swiftlang.ng.bluemix.net/#/repl/d65df578a83d3666514ba715977ed260e87dbf9c70ac5aa1046b5713e8a620ae
+// Blog Post: https://medium.com/swift-curriculum/swift-strong-properties-a8775516e4c6
+// Swift Version: 3.0
 
 // A property in Swift is strong by default. It must be modified to make it weak or unowned.
 // With Automatic Reference Counting (ARC) references are counted only if they are strong.
@@ -47,15 +47,15 @@ class Squad {
     
         return nil
     }
-    
+
     func kickOutFriend(friend: Friend?) -> String? {
         guard let friend = friend else {
             return nil
         }
         
-        if let index = friends.indexOf({ $0 == friend }) {
+        if let index = friends.index(where: { $0 == friend }) {
             print("Kicking out \(friend.name)")
-            friends.removeAtIndex(index)
+            friends.remove(at: index)
             return friend.name
         }
         
@@ -63,9 +63,9 @@ class Squad {
     }
     
     func kickOutFriendByName(name: String) -> String? {
-        if let index = friends.indexOf({ $0.name == name }) {
+        if let index = friends.index(where: { $0.name == name }) {
             print("Kicking out \(name)")
-            friends.removeAtIndex(index)
+            friends.remove(at: index)
             return name
         }
         
@@ -93,12 +93,12 @@ var lena: Friend? = Friend(name: "Lena Dunham")
 var kanye: Friend? = Friend(name: "Kanye West")
 
 var swiftSquad: Squad? = Squad()
-swiftSquad?.welcomeFriend(taylor)
-swiftSquad?.welcomeFriend(selena)
-swiftSquad?.welcomeFriend(emma)
-swiftSquad?.welcomeFriend(jaime)
-swiftSquad?.welcomeFriend(lena)
-swiftSquad?.welcomeFriend(kanye)
+swiftSquad?.welcomeFriend(friend: taylor)
+swiftSquad?.welcomeFriend(friend: selena)
+swiftSquad?.welcomeFriend(friend: emma)
+swiftSquad?.welcomeFriend(friend: jaime)
+swiftSquad?.welcomeFriend(friend: lena)
+swiftSquad?.welcomeFriend(friend: kanye)
 
 // set each friend to nil
 kanye = nil
@@ -111,7 +111,7 @@ taylor = nil
 swiftSquad?.report()
 
 // kick out Kanye (a string for name is used since the kanye variable is now nil)
-swiftSquad?.kickOutFriendByName("Kanye West")
+swiftSquad?.kickOutFriendByName(name: "Kanye West")
 
 // Kanye is not in the squad so there is only 1 reference to this variable now
 

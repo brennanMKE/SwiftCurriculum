@@ -1,6 +1,6 @@
 // SwiftCurriculum: https://github.com/brennanMKE/SwiftCurriculum
-// Blog Post: https://medium.com/@brennansv/swift-lazy-properties-dd76584d2d90#.jyflzxi4n
-// Web Playground: http://swiftlang.ng.bluemix.net/#/repl/44427dbfd6a1d778fc7ed6b7e330ab00dda27a0e2d49f4965e86c462966c4645
+// Blog Post: https://medium.com/swift-curriculum/swift-lazy-properties-dd76584d2d90
+// Swift Version: 3.0
 
 class Person {
     let name: String
@@ -115,7 +115,7 @@ print ("After creating the instances")
 
 print("There are \(apartmentBuilding.availableUnitsCount) available at \(apartmentBuilding.name)")
 
-if let unit305 = apartmentBuilding.getUnit(305) {
+if let unit305 = apartmentBuilding.getUnit(number: 305) {
     print("\(person.name) moved into \(unit305.number) at \(apartmentBuilding.name)")
     person.apartment = unit305
 }

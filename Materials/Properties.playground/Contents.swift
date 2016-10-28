@@ -1,6 +1,6 @@
 // SwiftCurriculum: https://github.com/brennanMKE/SwiftCurriculum
-// Blog Post: https://medium.com/@brennansv/swift-properties-5346f1543cd7#.1l3a3ijpl
-// Web Playground: http://swiftlang.ng.bluemix.net/#/repl/1cb4454b58b8e7e351a3ee73f8b6efd4c0f877541edb188c7a0019d48881cb37
+// Blog Post: https://medium.com/swift-curriculum/swift-properties-5346f1543cd7
+// Swift Version: 3.0
 
 // Class with properties which are initialized immediately
 
@@ -16,6 +16,7 @@ class Traveler {
     var debugDescription: String {
         return self.description
     }
+
 }
 
 // Class with properties which are initialized with init function
